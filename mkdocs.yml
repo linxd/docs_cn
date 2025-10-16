@@ -7,8 +7,8 @@ theme:
 
 extra:
   social:
-    - type: 'github'
-      link: 'https://github.com/cds-hooks'
+    - icon: fontawesome/brands/github
+      link: https://github.com/cds-hooks
 
 nav:
 - Overview: 'index.md'

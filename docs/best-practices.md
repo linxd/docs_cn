@@ -6,7 +6,7 @@ The Clinical Decision Support Hooks standard aims to provide real-time, actionab
 * CDS Services must be _fast_.  
   * Expect to invest resources into optimizing the speed of your service. CDS Client FHIR APIs may be a limiting factor in service performance.
   * CDS Services should return guidance on the order of 500 ms.
-  * Use & optimize **prefetch**. (If prefetch is not supported by an EHR, the HL7 "[CRMI Module Configuration Library]([url](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-moduleconfigurationlibrary.html))" pattern provides similar benefits).
+  * Use & optimize **prefetch**. (If prefetch is not supported by an EHR, the HL7 [CRMI Module Configuration Library](https://www.hl7.org/fhir/uv/crmi/StructureDefinition-crmi-moduleconfigurationlibrary.html) pattern provides similar benefits).
   * Use supported search parameters to **limit** the data returned. Test and analyze a variety of requests and parameters to optimize response time.
   * Make use of date search parameters whenever possible.
   * Use `_include` and `_revinclude` to minimize the number of queries performed. For example: `MedicationRequest?subject=test-1&date=ge2024-12-01&status=active,completed,stopped&category=community&intent=order&_include=MedicationRequest:medication`.

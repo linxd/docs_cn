@@ -37,3 +37,6 @@ The Clinical Decision Support Hooks standard aims to provide real-time, actionab
 * Use non-interruptive alerts integrated into clinician workflows when reasonable, rather than blocking workflow.
 * Utilize natively supported client alert feedback and tracking capabilities, when available, to better evaluate the CDS service’s impact and utilization.
 * To preserve clinical user experience, CDS Hooks should be considered only for actionable clinical decision support and not as an event notification framework.
+
+
+_Content last updated: October 16th, 2025_

@@ -1,61 +1,40 @@
-<p align="center">
-  <img src="https://github.com/cds-hooks/docs/raw/master/logo.png">
-</p>
+CDS Hooks 是一个‌与供应商无关的远程决策支持标准‌。此仓库同时作为 CDS Hooks 项目的‌规范文档‌和‌官方网站‌——中文版本。
 
-# CDS Hooks 
+快速入门
 
-[![Build Status](https://api.travis-ci.org/cds-hooks/docs.svg)](https://travis-ci.org/cds-hooks/docs)
+此仓库使用 MkDocs 静态站点生成器构建。若要在本地运行或构建此项目，需先安装 Python 2.7.13+。
 
-CDS Hooks is a vendor agnostic remote decision support standard. This repository serves as both the specification and website for the CDS Hooks project.
+克隆仓库‌
 
-## Getting Started
+sh
+Copy Code
+$ git clone https://github.com/linxd/cds-hooks/docs_cn
 
-This repository is built using the [MkDocs](http://www.mkdocs.org/) static site generator. In order to run the site locally or build this project, you will need to [install Python 2.7.13+](http://docs.python-guide.org/en/latest/starting/installation/).
 
-1. Clone the repository
+安装依赖‌
 
-```sh
-$ git clone https://github.com/cds-hooks/docs
-```
-
-2. Install the project dependencies
-
-```sh
+sh
+Copy Code
 $ cd docs
 $ pip install -r requirements.txt
-```
 
-3. Run the site locally
 
-```sh
+本地运行‌
+
+sh
+Copy Code
 $ mkdocs serve
-```
 
-4. Using a browser, go to `http://127.0.0.1:8000/`
 
-Anytime you make a change to the content within the site, your browser should automatically refresh to show your changes in real-time.
+访问网站‌
+在浏览器中打开 http://127.0.0.1:8000/，修改内容后页面会自动刷新。
 
-## Contributing
+贡献指南
 
-We encourage and welcome any contributions to CDS Hooks.
+欢迎参与 CDS Hooks 的贡献。提交问题或建议前，请先查阅现有议题。社区遵循行为准则，源自Contributor Covenant。
 
-If you want to report an issue or enhancement, please make sure to browse our [existing issues](https://github.com/cds-hooks/docs/issues) before logging new issues.
+许可证
 
-In support of a healthy and inclusive community, we use and enforce a [code of conduct](./CODE_OF_CONDUCT.md) for all members of our community. Our code of conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org/).
+所有 Markdown 内容采用 Creative Commons Attribution 4.0 International License。其他内容适用 Apache License 2.0，详情见仓库 LICENSE 文件。
 
-## License
-
-All Markdown content in this repository is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-Unless otherwise noted, the contents of this repository
-are licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License. 
+需要‌CDS Hooks配置速查表‌吗？帮你快速掌握本地运行和贡献指南的关键步骤~
